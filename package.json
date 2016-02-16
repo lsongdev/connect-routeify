@@ -1,0 +1,26 @@
+{
+  "name": "connect-routeify",
+  "version": "1.0.0",
+  "description": "connect route middleware ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/song940/connect-routeify.git"
+  },
+  "keywords": [
+    "connect",
+    "router"
+  ],
+  "author": "lsong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/song940/connect-routeify/issues"
+  },
+  "homepage": "https://github.com/song940/connect-routeify#readme",
+  "dependencies": {
+    "path-to-regexp": "*"
+  }
+}
