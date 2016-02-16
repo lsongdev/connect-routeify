@@ -12,6 +12,8 @@ module.exports = function route(def, callback){
         req.params[ key.name ] = matchs[ i ];
       });
       callback.apply(this, arguments);
+    }else{
+      next();
     }
   }
 };
